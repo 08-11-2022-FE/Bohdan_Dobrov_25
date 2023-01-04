@@ -443,7 +443,7 @@
   }
   .screen {
     height: 500px;
-    background-image: url(../src/img/bg-image320.webp);
+    background-image: url(../src/img/bg-image320.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
