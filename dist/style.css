@@ -21,7 +21,7 @@
 }
 
 .caption-color {
-  color: #7B7B7B;
+  color: #504F4F;
 }
 
 .text-color {
@@ -443,7 +443,7 @@
   }
   .screen {
     height: 500px;
-    background-image: url(../src/img/bg-image320.png);
+    background-image: url(../src/img/bg-image320.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
