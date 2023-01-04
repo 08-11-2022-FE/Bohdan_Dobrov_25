@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/dbb349df4f.js" crossorigin="anonymous"></script>
+        <link href="src/styles/reset.css" rel="stylesheet">
+        <link href="dist/style.css" rel="stylesheet">
+        <title>Responsive Web Design - Beetroot Academy</title>
+        <meta name="description" content="You will learn the principles of creating an adaptive interface, get acquainted with media queries">
+    </head>
+    <body>
+        <div class="container">
+            <header class="header content-container">
+                <img class="header__logo" src="src/img/logo.svg" alt="logo">
+                <div class="header__nav-container">
+                    <ul class="nav-list">
+                        <li>
+                            <a class="nav-list__link link main-color link_active" href="https://beetroot.academy/">Home</a>
+                        </li>
+                        <li>
+                            <a class="nav-list__link link main-color" href="https://beetroot.academy/">About</a>
+                        </li>
+                        <li>
+                            <a class="nav-list__link link main-color" href="https://beetroot.academy/">Works</a>
+                        </li>
+                        <li>
+                            <a class="nav-list__link link main-color" href="https://beetroot.academy/">Blog</a>
+                        </li>
+                        <li>
+                            <a class="nav-list__link link main-color" href="https://beetroot.academy/">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="button">
+                        <img src="src/img/search.svg" alt="search">
+                    </button>
+                    <img class="hamburger" src="src/img/hamburger.svg" alt="hamburger">
+                </div>
+            </header>
+            <main>
+                <section class="screen">
+                    <h1 class="screen__title red-hat-style">
+                        Manifest is a newborn theme.
+                        Clean, simple and fast.
+                    </h1>
+                    <picture>
+                        <source media="(max-width: 460px)" srcset="src/img/bg-image320.png">
+                        <img class="screen__image" src="src/img/bg-image.png" alt="bg image">
+                    </picture>
+                </section>
+                <section class="blog content-container attend-section">
+                    <h2 class="blog__title red-hat-style main-color">Blog</h2>
+                    <div class="blog__content attend-content">
+                        <div class="blog__item">
+                            <div class="blog__item-img">
+                                <img class="blog__item-img-size" src="src/img/blog-logo-one.png" alt="blog image" loading="lazy">
+                            </div>
+                            <div class="blog__text">
+                                <p class="text-style caption-color">Technology, Interface Design</p>
+                                <h3 class="title-style attend-title">
+                                    <a class="link main-color" href="https://en.wikipedia.org/wiki/User_experience_design">Using UX Design to Build a Sustainable Future</a>
+                                </h3>
+                                <p class="text-style caption-color">6 May, 2020</p>
+                                <p class="text-style text-color attend-content">
+                                    Transformation has to be driven by everybody,
+                                    not just by climate groups, and we have a responsibility
+                                    to use our influence to drive this.
+                                    <a href="#">
+                                        <img src="src/img/arrow.svg" alt="arrow">
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="blog__item flex-reverse">
+                            <div class="blog__item-img">
+                                <img class="blog__item-img-size" src="src/img/blog-image-two.png" alt="blog image" loading="lazy">
+                            </div>
+                            <div class="blog__text">
+                                <p class="text-style caption-color">Technology, Interface Design</p>
+                                <h3 class="title-style attend-title">
+                                    <a class="link main-color" href="https://en.wikipedia.org/wiki/User_experience_design">Using UX Design to Build a Sustainable Future</a>
+                                </h3>
+                                <p class="text-style caption-color">6 May, 2020</p>
+                                <p class="text-style text-color attend-content">
+                                    Transformation has to be driven by everybody,
+                                    not just by climate groups, and we have a responsibility
+                                    to use our influence to drive this.
+                                    <a href="#">
+                                        <img src="src/img/arrow.svg" alt="arrow">
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="post content-container attend-section">
+                    <div class="post__item">
+                        <h2 class="post__title main-color">Latest Posts</h2>
+                        <div class="post__link">
+                            <a class="text-style link" href="#" aria-label="load all news">
+                                View All
+                                <img class="post__img" src="src/img/arrow.svg" alt="arrow" loading="lazy">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="post__content attend-content">
+                        <div class="post__item-img">
+                            <div class="post__image">
+                                <img class="post__image-size" src="src/img/post-one.png" alt="post image" loading="lazy">
+                            </div>
+                            <div class="post__text">
+                                <div class="post__text-caption">
+                                    <p class="post__caption caption-color">Interface Design</p>
+                                    <p class="post__caption caption-color">8 June, 2020</p>
+                                </div>
+                                <h3 class="title-style post__title-attend">
+                                    <a class="link main-color" href="">UX traffic light colours</a>
+                                </h3>
+                                <p class="text-style text-color">
+                                    UI has to make a huge visual difference between warning, an alert and a success.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="post__item-img">
+                            <div class="post__image">
+                                <img class="post__image-size" src="src/img/post-two.png" alt="post image" loading="lazy">
+                            </div>
+                            <div class="post__text">
+                                <div class="post__text-caption">
+                                    <p class="post__caption caption-color">Technology</p>
+                                    <p class="post__caption caption-color">6 May, 2020</p>
+                                </div>
+                                <h3 class="title-style post__title-attend">
+                                    <a class="link main-color" href="https://en.wikipedia.org/wiki/User_experience_design">Using UX Design to Build a Sustainable Future</a>
+                                </h3>
+                                <p class="text-style text-color">
+                                    UI has to make a huge visual difference between warning, an alert and a success.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="post__item-img">
+                            <div class="post__image">
+                                <img class="post__image-size" src="src/img/post-three.png" alt="post image" loading="lazy">
+                            </div>
+                            <div class="post__text">
+                                <div class="post__text-caption">
+                                    <p class="post__caption caption-color">Visual Design</p>
+                                    <p class="post__caption caption-color">8 June, 2020</p>
+                                </div>
+                                <h3 class="title-style post__title-attend">
+                                    <a class="link main-color" href="https://en.wikipedia.org/wiki/User_experience_design">Creativity vs. UX</a>
+                                </h3>
+                                <p class="text-style text-color">
+                                    Is it possible to create a delightful user experience without following best UX practices?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="popular content-container attend-section">
+                    <div class="post__item">
+                        <h2 class="post__title main-color">The Most Popular</h2>
+                        <div class="post__link">
+                            <a class="text-style link" href="#" aria-label="load all news">
+                                View All
+                                <img class="post__img" src="src/img/arrow.svg" alt="arrow" loading="lazy">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="popular__content attend-content">
+                        <div class="popular__item-img">
+                            <div class="post__image">
+                                <img class="post__image-size" src="src/img/popular-one.png" alt="post image" loading="lazy">
+                            </div>
+                            <div class="post__text">
+                                <div class="post__text-caption">
+                                    <p class="post__caption caption-color">Interface Design</p>
+                                    <p class="post__caption caption-color">8 June, 2020</p>
+                                </div>
+                                <h3 class="title-style post__title-attend">
+                                    <a class="link main-color" href="https://en.wikipedia.org/wiki/User_experience_design">Mentorship Match — How a simple LinkedIn feature can boost diversity</a>
+                                </h3>
+                                <p class="text-style text-color">
+                                    LinkedIn is on a clear mission to make professionals more successful by connecting the global workforce and as we learned — diversity and success go hand in hand
+                                </p>
+                            </div>
+                        </div>
+                        <div class="popular__item-img">
+                            <div class="post__image">
+                                <img class="post__image-size" src="src/img/popular-two.png" alt="post image" loading="lazy">
+                            </div>
+                            <div class="post__text">
+                                <div class="post__text-caption">
+                                    <p class="post__caption caption-color">Visual Design</p>
+                                    <p class="post__caption caption-color">6 June, 2020</p>
+                                </div>
+                                <h3 class="title-style post__title-attend">
+                                    <a class="link main-color" href="https://en.wikipedia.org/wiki/User_experience_design">Creativity vs. UX</a>
+                                </h3>
+                                <p class="text-style text-color">
+                                    Is it possible to create a delightful user experience without following best UX practices?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <button class="button__style text-style" type="button" aria-label="load more news">Load More</button>
+                    </div>
+                </section>
+                <section class="info content-container attend-section">
+                    <div class="info__content">
+                        <h4 class="info__title main-color">
+                            Full-time UI/UX designer
+                            Head of Design at VeronaLabs.com
+                        </h4>
+                        <a class="text" href="#">
+                            <img src="src/img/arrow.svg" alt="arrow" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="info__content align-item">
+                        <p class="info__text text-color">
+                            We work with clients around the world from our
+                            headquarters in Charleston, South Carolina.
+                        </p>
+                        <p class="info__text text-color">
+                            We focus on naming, branding, brand narratives,
+                            website design and development, and brand experiences.
+                        </p>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer attend-section">
+                <div class="footer__content content-container">
+                    <div class="footer-items">
+                        <div class="footer-item">
+                            <h2 class="blog__title red-hat-style main-color">Need a project?</h2>
+                            <a class="footer__tel text-style link main-color" href="tel:239-555-0108">(239) 555-0108</a>
+                            <a class="footer__mail text-style link main-color" href="mailto:tanya.hill@example.com">tanya.hill@example.com</a>
+                        </div>
+                        <div class="footer-item">
+                            <ul class="footer__social">
+                                <li class="footer__social-item">
+                                    <a class="footer__link" href="https://www.instagram.com/" target="_blank" aria-label="instagram">
+                                        <i class="fa-brands fa-instagram size"></i>
+                                    </a>
+                                </li>
+                                <li class="footer__social-item">
+                                    <a class="footer__link" href="https://uk-ua.facebook.com/" target="_blank" aria-label="faccebook">
+                                        <i class="fa-brands fa-facebook-f size"></i>
+                                    </a>
+                                </li>
+                                <li class="footer__social-item">
+                                    <a class="footer__link" href="https://twitter.com/?lang=uk" target="_blank" aria-label="twitter">
+                                        <i class="fa-brands fa-twitter size"></i>
+                                    </a>
+                                </li>
+                                <li class="footer__social-item">
+                                    <a class="footer__link" href="https://www.linkedin.com/" target="_blank" aria-label="linkedin">
+                                        <i class="fa-brands fa-linkedin-in size"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="footer__copyright main-color">© Copyright Manifest Theme. Allrights reserved</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+$font-red-hat: 'Red Hat Display', sans-serif;
+$font-lato: 'Lato', sans-serif;
+
+@mixin font-style ($size, $height) {
+    font-size: $size;
+    line-height: $height;
+}
